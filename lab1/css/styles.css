@@ -1,0 +1,78 @@
+body {
+    background-color: white;
+    color: #187435;
+    font-family: "calibri", "tahoma";
+}
+
+header, main, nav, footer {
+    text-align: center;
+}
+
+nav a {    /* links within "nav" container */
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;     /* removes underline */
+    color: #084776;    /* by default, links are blue */
+}
+
+nav a:hover {    /* psuedo class */
+    border-bottom: 2px orange solid;
+    font-size: 2em;
+    transition: .9s;    /* transition effect */
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    font-size: 13px;
+    color: #084776;
+}
+
+
+table {
+    margin: 0px auto;
+}
+
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+td strong {
+    color: orange;
+}
+
+#table-header {
+    background-color: #084776;
+    color: #c1aa2e;
+}
+
+.table-row {
+    background-color: #187435;
+    color: #c1aa2e;
+}
+
+ul {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.hobby {
+    color: #084776;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+
+.active {
+   color: #c1aa2e;
+   font-size: 2em;
+}
